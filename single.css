@@ -1,0 +1,266 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body {
+    padding: 10px 100px 0 100px;
+}
+
+nav {
+    font-weight: bold;
+}
+
+.brand {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+ul {
+    display: inline-block;
+    float: right;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul::after {
+    content: ' ';
+    display: block;
+    clear: both;
+}
+
+ul li {
+    display: inline-block;
+    margin-left: 15px
+}
+
+ul li input {
+    outline: none;
+    border: 1px solid #000;
+    padding-left: 10px;
+    height: 30px;
+    color: #ab2f2f;
+    border-radius: 15px;
+}
+
+ul li.active {
+    text-decoration: underline;
+}
+
+.content {
+    margin-top: 100px;
+    margin-left: 35px;
+    display: flex;
+    flex-basis: 45%;
+}
+
+.content .img {
+    width: 50%;
+    display: inline-block;
+    border-radius: 45%;
+}
+
+.content .heading {
+    width: 50%;
+    display: inline-block
+}
+
+.content .heading h1 {
+    font-size: 40px;
+    color: rgb(0, 7, 7);
+}
+
+.content .heading p {
+    line-height: 1.6;
+    font-size: 25px;
+    font-weight: 10%;
+
+}
+
+.content .heading p span {
+    color: #eb1c1c;
+    font-weight: 20%;
+}
+
+/*features*/
+.features main-padding text-center {
+    background-color: #f4f4f4
+}
+
+.features .feat {
+    display: inline-block;
+    width: 22.15%;
+    margin-top: 30px;
+    margin-right: 10%;
+    padding: 15px 15px;
+    justify-content: space-between;
+    background-color: #f4f4f4;
+    box-shadow: 0 0 15px #ccc
+}
+
+.features .feat:last-of-type {
+    margin-right: 0
+}
+
+.features .feat i {
+    color: #a2cf8d
+}
+
+.features .feat h3 {
+    font-size: 17px
+}
+
+.features .feat p {
+    color: #666
+}
+
+.features .feat:hover,
+.features .feat:nth-of-type(3) {
+    background-color: #478a7e
+}
+
+.features .feat:hover i,
+.features .feat:nth-of-type(3) i,
+.features .feat:hover h3,
+.features .feat:nth-of-type(3) h3,
+.features .feat:hover p,
+.features .feat:nth-of-type(3) p {
+    color: rgb(250, 248, 250)
+}
+
+/* End Features */
+/* sills*/
+.Java main-padding text-cente {
+    background-color: #f4f4f4
+}
+
+.java .feat {
+    display: inline-block;
+    width: 19.5%;
+    margin-top: 30px;
+    margin-right: 10%;
+    padding: 15px 15px;
+    background-color: #f4f4f4;
+    box-shadow: 0 0 15px #ccc
+}
+
+.java .feat:last-of-type {
+    margin-right: 0
+}
+
+.java .feat i {
+    color: #a2cf8d
+}
+
+.java .feat h3 {
+    font-size: 17px
+}
+
+.java .feat p {
+    color: #666
+}
+
+.java .feat:hover,
+.java .feat:nth-of-type(3) {
+    background-color: #478a7e
+}
+
+.java .feat:hover i,
+.java .feat:nth-of-type(3) i,
+.java .feat:hover h3,
+.java .feat:nth-of-type(3) h3,
+.java .feat:hover p,
+.java .feat:nth-of-type(3) p {
+    color: rgb(250, 248, 250)
+}
+
+/*--------contact us */
+.contact-left {
+    flex-basis: 35%;
+}
+
+.contact-right {
+    flex-basis: 60%;
+}
+
+.contact-left p {
+    margin-top: 30px;
+
+}
+
+.contact-left p i {
+    color: #003cff;
+    margin-right: 15px;
+    font-size: 25px;
+
+}
+
+.social-icons {
+    margin-top: 30px;
+
+}
+
+.social-icons a {
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #993535;
+    display: inline-block;
+    transition: transform(0.5s);
+}
+
+.social-icons a:hover {
+    color: #0a0a0a;
+    transform: translateY(-5px);
+
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 4px;
+    background: #044deca2;
+    border-radius: 20px;
+}
+
+.contact-right form {
+    width: 100%;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #3d3c3c;
+    padding: 15px;
+    margin: 15px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+.btn2 {
+
+    font-size: 20px;
+    color: #e7e1e1;
+    display: inline-block;
+    padding: 17px 6px;
+    background: #0461eca2;
+    border-radius: 10px;
+}
+
+.copyright {
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #fff;
+    font-weight: 200;
+    margin-top: 20px;
+}
+
+@media only screen and (max-with:600px) {
+    color: #fff;
+}
